@@ -1,0 +1,25 @@
+@import "base.css";
+@import "header.css";
+@import "main-content.css";
+@import "footer.css";
+
+.wrapper{
+    width: auto;
+    height: 2930px;
+}
+.menu{
+    font-size: 14px;
+    line-height: 16px;
+}
+.container{
+    width: 1155px;
+    margin: 0 auto;
+}
+
+.main-page-wrapper{
+    background: url("../image/1.png") center top no-repeat, url("../image/2.png") right bottom 307px no-repeat, url("../image/фон.png");
+}
+
+
+
+

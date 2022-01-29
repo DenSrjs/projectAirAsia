@@ -1,0 +1,307 @@
+.content{
+    position: relative;
+    height: 2490px;
+}
+
+.tour-image {
+    height: 655px;
+}
+
+.tour-image__title{
+    display: block;
+    position: absolute;
+    top: 107px;
+    left: 10px;
+    font-size: 72px;
+    line-height: normal;
+    font-weight: bold;
+    width: 511px;
+    height: 170px;
+}
+
+.tour-image__caption{
+    position: absolute;
+    top: 312px;
+    left: 11px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.tour-image__btn{
+    position: absolute;
+    left: 8px;
+    top: 388px;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: bold;
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+}
+
+/*===================== Горящие туры ============================*/
+
+.hot-tours{
+    height: 652px;
+}
+
+.hot-tours__title{
+    margin-top: 33px;
+    margin-left: 11px;
+    font-size: 36px;
+    line-height: 42px;
+}
+.tours-title__icon{
+    margin-top: 26px;
+    margin-left: 12px;
+    width: 21px;
+    height: 28px;
+}
+
+.country{
+    margin-top: 54px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 362px;
+    height: 450px;
+    background: white;
+}
+.hot-tours__item:nth-child(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.country__title{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin-top: 31px;
+    margin-left: 24px;
+}
+
+.country__features{
+    margin-top: 21px;
+    padding: 0;
+}
+
+.country__pic-feature,.country__img-feature, .country__feature-text{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.country__img-feature{
+    width: 26px;
+    height: 26px;
+    margin-left: 25px;
+}
+
+.country__feature-text{
+    color: #666666;
+    margin-left: 10px;
+    align-items: center;
+}
+.country__text{
+    margin: 30px 16px 44px 22px;
+    font-size: 14px;
+    color: #303030;
+}
+
+.btn{
+    padding: 18px 30px 18px 30px;
+    border: 1px solid #F5170E;
+    box-sizing: border-box;
+    border-radius: 35px;
+    width: 135px;
+    height: 55px;
+    color: #F5170E;
+}
+
+.btn:hover{
+    color: #fff;
+    background: #F5170E;
+}
+
+.country__watch{
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ============================ Новости и акции ==================================================================== */
+.stock-news{
+    height: 677px;
+    position: relative;
+}
+
+.stock-news__main-title{
+    display: block;
+    position: absolute;
+    top: 57px;
+    left: 10px;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.stock-news__list{
+    position: absolute;
+    top: 155px;
+    left: 10px;
+    display: inline;
+    padding: 0;
+}
+
+.stock-news__item{
+    border-radius: 5px;
+    width: 551px;
+    height: 394px;
+}
+.stock-news__item:nth-child(2){
+    margin-left: 25px;
+}
+.stock-news__item:nth-child(2) .stock-news__date{
+    position: absolute;
+    top: 250px;
+    left: 610px;
+}
+.stock-news__item:nth-child(2) .stock-news__title{
+    position: absolute;
+    top: 285px;
+    left: 610px;
+}
+.stock-news__item:nth-child(2) .stock-news__text{
+    position: absolute;
+    top: 325px;
+    left: 610px;
+
+}
+.stock-news__date{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    font-size: 14px;
+    line-height: normal;
+}
+.stock-news__title{
+    position: absolute;
+    top: 283px;
+    left: 32px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.stock-news__text{
+    position: absolute;
+    top: 322px;
+    left: 30px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: normal;
+    width: 483px;
+    height: 49px;
+}
+/*========================================= Пагинация ===============================================================*/
+.paginator{
+    text-align: center;
+}
+.paginator__current-page, .paginator__list{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paginator__current-page{
+    position: absolute;
+    top: 605px;
+    left:390px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.paginator__list{
+    position: absolute;
+    top: 600px;
+    left: 535px;
+    padding: 0;
+}
+.paginator__item{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paginator__number{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.paginator__number:hover{
+    background: white;
+    color: #F5170E;
+}
+
+/* ============================ О нас ============================================================================== */
+.about{
+    height: 590px;
+    position: relative;
+}
+
+.about__photo{
+    display: inline-block;
+    width: 490px;
+    height: 505px;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+
+.about__image-content{
+    position: absolute;
+    top: 197px;
+    left: 364px;
+    display: inline-block;
+    width: 785px;
+    height: 455px;
+}
+.about-content__title{
+    position: absolute;
+    top: 75px;
+    left: 82px;
+    width: 103px;
+    height: 49px;
+    color: black;
+    font-size: 36px;
+    line-height: 42px;
+}
+.about-content__text{
+    position: absolute;
+    top: 160px;
+    left:80px;
+    font-size: 16px;
+    line-height: 27px;
+    width: 502px;
+    height: 135px;
+    color: #000;
+}
+.about-content__more{
+    display: flex;
+    position: absolute;
+    top: 335px;
+    left: 81px;
+    background: #F5170E;
+    border-radius: 35px;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.hor-line{
+    display: block;
+    margin-top: 115px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}

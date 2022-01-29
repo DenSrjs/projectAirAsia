@@ -1,0 +1,60 @@
+.header{
+    position: relative;
+    height: 96px;
+}
+
+.contacts{
+    font-style: normal;
+    text-align: right;
+}
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    width: 85px;
+    height: 36px;
+    top:35px;
+    left: 7px;
+}
+
+
+.menu__link:hover{
+    color: #DA0100;
+}
+
+.header .menu ul li:first-child{
+    position: absolute;
+    top: 50px;
+    left: 174px;
+}
+
+.header .menu ul li:nth-child(2){
+    position: absolute;
+    top: 50px;
+    left: 284px;
+}
+
+.header .menu ul li:last-child{
+    position: absolute;
+    top: 50px;
+    left: 384px;
+}
+
+.header .contacts{
+    position: absolute;
+    font-size: 26px;
+    line-height: 30px;
+    top: 35px;
+    right: 3px;
+}
+
+
+
+.contacts__schedule{
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration: underline;
+    position: absolute;
+    top: 23px;
+    right: 1px;
+}
