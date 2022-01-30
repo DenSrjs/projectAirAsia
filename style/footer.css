@@ -3,69 +3,41 @@
     height: 146px;
 }
 
-.footer .menu__list{
-    position: absolute;
-    top: 223px;
-    left: 28px;
-}
-.footer .menu ul li:first-child{
-    position: absolute;
-    top: 42px;
-    left: 148px;
-}
-
-.footer .menu ul li:nth-child(2){
-    position: absolute;
-    top: 42px;
-    left: 258px;
-}
-
-.footer .menu ul li:last-child{
-    position: absolute;
-    top: 42px;
-    left: 358px;
-}
 .footer__logo{
     position: absolute;
-    top:250px;
+    top: 0;
+}
+
+.footer .menu{
+    display: inline-block;
+    position: absolute;
+    top:17px ;
+    left: 166px;
 }
 
 .social-list{
     position: absolute;
-    top:250px;
-    left: 700px;
+    top: 4px;
+    left: 704px;
 }
-.social-list__item:nth-child(1){
-    position: absolute;
-    top: 3px;
-    left: 14px;
+
+.social-list__item{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
 }
-.social-list__item:nth-child(2){
-    position: absolute;
-    top: 3px;
-    left: 60px;
+
+.social-list__item:last-child{
+    margin-right: 0;
 }
-.social-list__item:nth-child(3){
-    position: absolute;
-    top: 3px;
-    left: 105px;
-}
-.social-list__item:nth-child(4){
-    position: absolute;
-    top: 3px;
-    left: 150px;
-}
+
 .footer__contacts{
-    position: absolute;
-    top:272px;
-    right: 4px;
     font-size: 26px;
     line-height: 20px;
 }
+
 .contacts__work-hours{
-    position: absolute;
-    top: -27px;
-    left: 28px;
     color: #9A9A9A;
     font-size: 11px;
     line-height: 20px;
