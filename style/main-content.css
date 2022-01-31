@@ -30,7 +30,10 @@
     border-radius: 35px;
     padding: 18px 40px;
 }
-
+.tour-image__btn:hover{
+    background: #DA0100;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
 /*===================== Горящие туры ============================*/
 
 .hot-tours{
@@ -240,8 +243,7 @@
     font-weight: bold;
 }
 
-.paginator__item--active
-.paginator__number{
+.paginator__item--active .paginator__number{
     background: white;
     color: #F5170E;
 }
@@ -254,28 +256,30 @@
 /* ============================ О нас ============================================================================== */
 .about{
     position: relative;
+    margin-bottom: 46px;
+    padding-top: 97px;
 }
 
 .about__image-content{
+    display: block;
     position: relative;
-    margin-top: 97px;
-    margin-left: 354px;
-    margin-bottom: 46px;
-    display: inline-block;
+    margin-left: auto;
     width: 785px;
-    height: 455px;
-
+    min-height: 455px;
+    background: url(../image/mountains.png) center center / cover no-repeat;
+    padding: 70px 202px 66px 81px;
 }
 
 .about__photo{
     position: absolute;
+    top: 0;
+    left: 0;
     display: inline-block;
     width: 490px;
     height: 505px;
 }
 
 .about__content{
-    position: absolute;
     top: 73px;
     left: 82px;
 }
@@ -303,6 +307,11 @@
     font-size: 14px;
     line-height: 16px;
     font-weight: bold;
+}
+
+.about-content__more:hover{
+    background: #DA0100;
+    box-shadow: 0 2px 4px rgba(218, 1, 0, 0.3);
 }
 
 .hor-line{

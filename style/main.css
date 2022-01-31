@@ -10,9 +10,19 @@
     font-size: 14px;
     line-height: 16px;
 }
+
+.menu__link:hover{
+    color: #DA0100;
+}
+
 .menu__item{
     margin-right: 51px;
 }
+
+.menu__item:last-child{
+    margin-right: 0;
+}
+
 .container{
     width: 1141px;
     margin: 0 auto;
