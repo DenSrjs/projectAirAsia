@@ -1,30 +1,14 @@
-.footer{
-    position: relative;
-    height: 146px;
+.footer-main__container{
+    display: flex;
+    margin-bottom: 74px;
 }
 
-.footer__logo{
-    position: absolute;
-    top: 0;
-}
-
-.footer .menu{
-    display: inline-block;
-    position: absolute;
-    top:17px ;
-    left: 166px;
-}
-
-.social-list{
-    position: absolute;
-    top: 4px;
-    left: 704px;
+.footer-main__container .social-list{
+    margin-left: auto;
+    margin-right: 74px;
 }
 
 .social-list__item{
-    display: inline-block;
-    width: 36px;
-    height: 36px;
     margin-right: 10px;
 }
 
@@ -40,6 +24,5 @@
 .contacts__work-hours{
     color: #9A9A9A;
     font-size: 11px;
-    line-height: 20px;
     font-weight: normal;
 }

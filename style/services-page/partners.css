@@ -1,0 +1,25 @@
+.partners{
+    min-height: 537px;
+    background: #F4F5F5;
+    color: #000;
+    padding-top: 88px;
+}
+
+.partners__title{
+    margin-bottom: 65px;
+    font-size: 48px;
+}
+
+.partners__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.partners__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 100px;
+}

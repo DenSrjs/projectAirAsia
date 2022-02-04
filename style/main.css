@@ -2,43 +2,11 @@
 @import "header.css";
 @import "main-content.css";
 @import "footer.css";
+@import url("services-page/header-services.css");
+@import url("services-page/footer-services.css");
+@import url("services-page/partners.css");
+@import url("services-page/content-services.css");
 
-.wrapper{
-    width: auto;
-}
-.menu{
-    font-size: 14px;
-    line-height: 16px;
-}
-
-.menu__link:hover{
-    color: #DA0100;
-}
-
-.menu__item{
-    margin-right: 51px;
-}
-
-.menu__item:last-child{
-    margin-right: 0;
-}
-
-.container{
-    width: 1141px;
-    margin: 0 auto;
-}
-
-.main-page-wrapper{
-    background: url("../image/1.png") center top no-repeat,
-    url("../image/2.png") right bottom 307px no-repeat,
-    url("../image/фон.png");
-}
-
-.logo{
-    display: inline-block;
-    width: 85px;
-    height: 36px;
-}
 
 
 

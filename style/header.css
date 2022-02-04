@@ -1,37 +1,6 @@
-.header{
-    position: relative;
-    height: 96px;
-    margin-bottom: 107px;
+.header-main{
+    margin-bottom: 114px;
 }
-
-.header .logo{
-    position: absolute;
-    top:35px;
-}
-
-.contacts{
-    font-style: normal;
-    text-align: right;
-}
-
-.menu__item--active .menu__link{
-    color: #DA0100;
-}
-
-.header .menu{
-    position: absolute;
-    top: 50px;
-    left: 167px;
-}
-
-.header .contacts{
-    position: absolute;
-    font-size: 26px;
-    line-height: 30px;
-    top: 35px;
-    right: 0;
-}
-
 .contacts__schedule{
     color: #98A4A8;
     font-size: 13px;
@@ -41,5 +10,5 @@
 }
 
 .contacts__schedule:hover{
-    color:inherit;
+    color: inherit;
 }

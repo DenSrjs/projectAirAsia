@@ -1,30 +1,27 @@
-.content{
-    position: relative;
-}
 
 .tour-image{
-    margin-bottom: 250px;
+    margin-bottom: 245px;
 }
 
 .tour-image__title{
-    margin-bottom: 27px;
+    margin-bottom: 20px;
     display: block;
     font-size: 72px;
-    line-height: normal;
+    font-style: normal;
     font-weight: bold;
     width: 511px;
 }
 
 .tour-image__caption{
     font-size: 18px;
-    line-height: 20px;
-    margin-bottom: 33px;
+    margin-bottom: 30px;
 }
 
 .tour-image__btn{
-    display: inline-block;
+    width: 168px;
+    display: block;
     font-size: 14px;
-    line-height: normal;
+    font-style: normal;
     font-weight: bold;
     background: #F5170E;
     border-radius: 35px;
@@ -32,18 +29,21 @@
 }
 .tour-image__btn:hover{
     background: #DA0100;
-    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(218, 1, 0, 0.3);
 }
 /*===================== Горящие туры ============================*/
 
 .hot-tours{
- margin-bottom: 129px;
+ margin-bottom: 125px;
 }
 
+.hot-tour__list{
+    display: flex;
+    justify-content: space-between;
+}
 .hot-tours__title{
-    margin-bottom: 54px;
+    margin-bottom: 50px;
     font-size: 36px;
-    line-height: 42px;
 }
 
 .tours-title__icon{
@@ -55,7 +55,7 @@
 .country{
     border-radius: 5px;
     width: 362px;
-    min-height: 450px;
+    min-height: 440px;
     background: white;
 }
 
@@ -70,14 +70,6 @@
     object-fit: cover;
 }
 
-.hot-tours__item{
-    margin-right: 23px;
-}
-
-.hot-tours__item:last-child{
-    margin-right: 0;
-}
-
 .country__content{
     padding: 38px 16px 26px 23px;
 }
@@ -90,27 +82,20 @@
 }
 
 .country__features{
-    margin-bottom: 27px;
+    margin-bottom: 20px;
     padding: 0;
 }
 
-.country__pic-feature,
-.country__img-feature,
-.country__feature-text{
-    display: inline-block;
-    vertical-align: middle;
+.country__features-item{
+    margin-right: 44px;
+}
+.country__features-item:nth-child(2){
+    margin-right: 0;
 }
 
 .country__pic-feature{
-    padding-left: 4px;
-}
-
-.country__features-item{
-    margin-right: 28px;
-}
-
-.country__features-item:last-child{
-    margin-right: 0;
+    display: inline-flex;
+    align-items: center;
 }
 
 .country__img-feature{
@@ -122,16 +107,16 @@
 .country__feature-text{
     color: #666666;
     align-items: center;
+    font-size: 16px;
 }
 
 .country__text{
-    margin-bottom: 29px;
-    font-size: 14px;
+    margin-bottom: 25px;
     color: #303030;
 }
 
 .btn{
-    display: inline-block;
+    display: block;
     padding: 18px 30px 18px 30px;
     border: 1px solid #F5170E;
     box-sizing: border-box;
@@ -147,8 +132,7 @@
 }
 
 .country__watch{
-    font-size: 14px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 /* ============================ Новости и акции ==================================================================== */
@@ -159,41 +143,34 @@
 .stock-news__main-title{
     display: block;
     font-size: 36px;
-    line-height: 42px;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 
 .stock-news__list{
+    display: flex;
     margin-bottom: 49px;
+    justify-content: space-between;
 }
 
 .stock-news__item{
-    display: inline-block;
     position: relative;
     border-radius: 5px;
     width: 557px;
     min-height: 394px;
-    margin-right: 22px;
-}
-
-.stock-news__item:last-child{
-    display: inline-block;
-    margin-right: 0;
+    text-align: left;
 }
 
 .stock-news__content{
     position: absolute;
     left: 0;
-    right: 0;
     bottom: 0;
-    padding: 25px 30px;
-    min-height: 120px;
+    padding: 33px 30px;
+    min-height: 180px;
 }
 
 .stock-news__date{
     margin-bottom: 12px;
     font-size: 14px;
-    line-height: 21px;
     font-style: normal;
 }
 
@@ -201,47 +178,16 @@
     margin-bottom: 3px;
     font-weight: Bold;
     font-size: 24px;
-    line-height: 36px;
+    font-style: normal;
 }
 
 .stock-news__text{
     font-size: 16px;
-    line-height: 24px;
     font-style: normal;
 }
 /*========================================= Пагинация ===============================================================*/
-.paginator{
-    text-align: center;
-}
 
-.paginator__current-page,
-.paginator__list{
-    display: inline-block;
-    vertical-align: middle;
-}
 
-.paginator__current-page{
-    width: 125px;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: normal;
-    margin-right: 25px;
-}
-
-.paginator__item{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.paginator__number{
-    display: block;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    font-size: 16px;
-    line-height: 32px;
-    font-weight: bold;
-}
 
 .paginator__item--active .paginator__number{
     background: white;
@@ -274,7 +220,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    display: inline-block;
     width: 490px;
     height: 505px;
 }
@@ -299,7 +244,8 @@
     width: 502px;
 }
 .about-content__more{
-    display: inline-block;
+    display: block;
+    width: 168px;
     background: #F5170E;
     border-radius: 35px;
     align-items: center;
