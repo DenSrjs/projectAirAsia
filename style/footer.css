@@ -1,5 +1,6 @@
 .footer-main__container{
     display: flex;
+    padding-top: 42px;
     margin-bottom: 74px;
 }
 

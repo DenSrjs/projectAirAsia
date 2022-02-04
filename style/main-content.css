@@ -18,8 +18,7 @@
 }
 
 .tour-image__btn{
-    width: 168px;
-    display: block;
+    display: inline-block;
     font-size: 14px;
     font-style: normal;
     font-weight: bold;
@@ -41,8 +40,14 @@
     display: flex;
     justify-content: space-between;
 }
-.hot-tours__title{
+
+.hot-tours__title-box{
+    display: flex;
     margin-bottom: 50px;
+    align-items: baseline;
+}
+
+.hot-tours__title{
     font-size: 36px;
 }
 
@@ -87,14 +92,16 @@
 }
 
 .country__features-item{
+    display: inline-flex;
     margin-right: 44px;
 }
+
 .country__features-item:nth-child(2){
     margin-right: 0;
 }
 
 .country__pic-feature{
-    display: inline-flex;
+    display: flex;
     align-items: center;
 }
 
@@ -106,7 +113,6 @@
 
 .country__feature-text{
     color: #666666;
-    align-items: center;
     font-size: 16px;
 }
 
@@ -186,8 +192,6 @@
     font-style: normal;
 }
 /*========================================= Пагинация ===============================================================*/
-
-
 
 .paginator__item--active .paginator__number{
     background: white;
