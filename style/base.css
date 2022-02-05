@@ -187,3 +187,7 @@ p{
 .social-list{
     display: flex;
 }
+
+.main-content—theme-inner{
+    margin-bottom: 0;
+}

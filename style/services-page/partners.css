@@ -1,8 +1,8 @@
 .partners{
-    min-height: 537px;
     background: #F4F5F5;
     color: #000;
-    padding-top: 88px;
+    padding-top: 104px;
+    padding-bottom: 65px;
 }
 
 .partners__title{
@@ -21,5 +21,5 @@
     align-items: center;
     justify-content: center;
     width: 230px;
-    height: 100px;
+    height: 128px;
 }
