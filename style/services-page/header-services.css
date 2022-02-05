@@ -1,5 +1,5 @@
 .header-services{
-    background: url("../../image/headline 1.png");
+    background: url("../../image/headline 1.png") center center / cover no-repeat;
     min-height: 412px;
     margin-bottom: 98px;
 }

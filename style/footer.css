@@ -1,7 +1,7 @@
 .footer-main__container{
     display: flex;
     padding-top: 42px;
-    margin-bottom: 74px;
+    margin-bottom: 46px;
 }
 
 .footer-main__container .social-list{
@@ -19,7 +19,6 @@
 
 .footer__contacts{
     font-size: 26px;
-    line-height: 20px;
 }
 
 .contacts__work-hours{

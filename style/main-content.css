@@ -170,8 +170,8 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    padding: 33px 30px;
-    min-height: 180px;
+    padding: 26px 30px;
+    min-height: 168px;
 }
 
 .stock-news__date{
@@ -217,7 +217,7 @@
     width: 785px;
     min-height: 455px;
     background: url(../image/mountains.png) center center / cover no-repeat;
-    padding: 70px 202px 66px 81px;
+    padding: 76px 202px 66px 77px;
 }
 
 .about__photo{
