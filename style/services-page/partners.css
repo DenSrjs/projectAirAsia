@@ -16,10 +16,21 @@
     justify-content: space-between;
 }
 
+.partners__item{
+    flex-grow: 1;
+    margin-right: 59px;
+}
+
+.partners__item:nth-child(4n + 4){
+    margin-right: 0;
+}
+
+.partners__item:nth-child(4n + 4) .partners__link{
+    justify-content: flex-end;
+}
+
 .partners__link{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 230px;
     height: 128px;
 }

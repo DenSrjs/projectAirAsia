@@ -1,0 +1,233 @@
+.reviews__list{
+    column-count: 2;
+    column-gap: 27px;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.reviews__item{
+    display: inline-flex;
+    flex-direction: column;
+    background: #F4F5F5;
+    border-right: 5px;
+    padding: 50px 30px 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.reviews__user{
+    display: flex;
+    margin-bottom: 27px;
+}
+
+.reviews__user-avatar{
+    width: 142px;
+    height: 142px;
+    margin-right: 21px;
+}
+
+.reviews__user-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviews__user-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.reviews__user-link{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+
+.reviews__user-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.reviews__icon{
+    width: 100%;
+    height: 100%;
+}
+
+
+.reviews__user-link:hover{
+    color: #2E77A4;
+    text-decoration: underline;
+}
+
+.choice-tour{
+    background: #E7E7E7;
+    border-radius: 35px;
+    padding: 10px 14px;
+}
+
+.choice-tour--color--green{
+    background: #B9EAE4;
+}
+
+.reviews__title{
+    font-size: 30px;
+    margin-bottom: 13px;
+    letter-spacing: 1px;
+}
+
+.reviews__context{
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__text{
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 1.65;
+}
+
+/*============================== Постер ===================================*/
+.poster{
+    height: 363px;
+    width: 100%;
+    background: url("../../image/Rectangle.png");
+}
+
+.poster__content{
+    position: relative;
+}
+
+.poster__title{
+    position: absolute;
+    top: 117px;
+    font-size: 48px;
+    color: #fff;
+    max-width: 545px;
+}
+
+.poster__pic{
+    position: absolute;
+    top: 21px;
+    right: 0;
+}
+/*=================================================================================*/
+.survey{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+.survey__question{
+    width: 42%;
+    margin-right: 73px;
+    font-size: 18px;
+}
+.choice__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.choice__item{
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.choice__item:nth-child(5){
+    margin-right: 0;
+}
+
+.choice__item:nth-child(n + 6){
+    margin-bottom: 0;
+}
+
+.choice__item:last-child{
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+/*=====================================================================*/
+
+.reviews .paginator__item--active .paginator__number{
+    background: #F5170E;
+    color: #fff;
+}
+
+.reviews .paginator__number:hover{
+    background: #F5170E;
+    color: #fff;
+}
+
+.paginator--mb{
+    margin-bottom: 94px;
+}
+
+/*==================================================================================*/
+.form{
+    background: #F4F5F5;
+    padding-top: 62px;
+}
+
+.form__title{
+    font-size: 48px;
+    margin-bottom: 57px;
+}
+
+.form__field-data{
+    display: flex;
+    margin-bottom: 26px;
+}
+.form__input{
+    flex: 1;
+    margin-right: 28px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 18px 30px;
+    color: #1A1B1E;
+}
+
+.form__input:last-child{
+    margin-right: 0;
+}
+
+.form__input::placeholder{
+   color: #666666;
+}
+
+.form__input--textarea{
+    height: 235px;
+    resize: none;
+}
+
+/*==================================================*/
+
+.form__button{
+    text-align: right;
+    padding-bottom: 96px;
+}
+.btn-form{
+    padding: 18px 45px;
+    background: #2B2B2B;
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-reset{
+    background: #8E8E8E;
+    margin-right: 18px;
+}
+.btn-reset:hover{
+    background: #2B2B2B;
+}
+.btn-send{
+    background: #F5170E;
+}

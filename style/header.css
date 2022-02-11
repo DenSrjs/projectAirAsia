@@ -1,7 +1,9 @@
 .header-main{
     margin-bottom: 114px;
 }
-.contacts__schedule{
+.dropdown{
+    justify-content: flex-end;
+    position: relative;
     color: #98A4A8;
     font-size: 13px;
     line-height: 20px;
@@ -9,6 +11,37 @@
     margin-top: -3px;
 }
 
-.contacts__schedule:hover{
-    color: inherit;
+.dropdown__link{
+    display: inline-flex;
+}
+
+.dropdown__link:hover{
+    color: #fff;
+}
+
+.dropdown__link:hover .dropdown__menu{
+    right: 0;
+    opacity: 1;
+}
+.dropdown__menu{
+    position: absolute;
+    top: 100%;
+    right: -99999px;
+    height: 80px;
+    width: 160px;
+    background: url("/image/Прямоугольник, скругл. углы 9.png")center center no-repeat;
+    padding: 22px 19px;
+    color: #000;
+    opacity: 0;
+    transition: opacity .4s;
+}
+
+.dropdown__item{
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.61;
+    font-weight: bold;
+}
+.dropdown__item:last-child{
+    font-weight: 600;
 }
