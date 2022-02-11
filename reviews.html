@@ -16,7 +16,7 @@
                 <div class="container">
                     <div class="hero">
                         <a href="/" class="logo">
-                            <img src="image/лого.png" alt="Логотип" class="logo__pic">
+                            <img src="image/logo.png" alt="Логотип" class="logo__pic">
                         </a>
                         <nav class="menu">
                             <ul class="menu__list">
@@ -58,8 +58,6 @@
                             <li class="breadcrumbs__item">
                                 <a class="breadcrumbs__link" href="">Главная</a>
                             </li>
-                            <!-- Реализовать через стили -->
-                            <li class="breadcrumbs__item">/</li>
                             <li class="breadcrumbs__item">
                                 <a class="breadcrumbs__link"  href="">Отзывы</a>
                             </li>
@@ -74,7 +72,7 @@
                         <li class="reviews__item">
                             <div class="reviews__user">
                                 <div class="reviews__user-avatar">
-                                    <img src="./image/Эллипс.png" alt="фото" class="reviews__user-pic">
+                                    <img src="image/Ellips.png" alt="фото" class="reviews__user-pic">
                                 </div>
                                 <div class="reviews__user-content">
                                     <div class="reviews__user-link">
@@ -83,7 +81,10 @@
                                             <img class="reviews__icon" src="./image/vk-blue%201.png" alt="VK">
                                         </div>
                                     </div>
-                                    <div class="choice-tour choice-tour--color--green">Водопад Янг-бей</div>
+                                    <div class="choice">
+                                        <div class="choice__tour choice__tour--color--green">Водопад Янг-бей</div>
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="reviews__context">
@@ -97,11 +98,10 @@
                                 <div class="reviews__date">Ноябрь 2019</div>
                             </div>
                         </li>
-
                         <li class="reviews__item">
                             <div class="reviews__user">
                                 <div class="reviews__user-avatar">
-                                    <img src="./image/Эллипс%20(2).png" alt="фото" class="reviews__user-pic">
+                                    <img src="./image/Ellips2.png" alt="фото" class="reviews__user-pic">
                                 </div>
                                 <div class="reviews__user-content">
                                     <div class="reviews__user-link">
@@ -110,7 +110,9 @@
                                             <img class="reviews__icon" src="./image/vk-blue%201.png" alt="VK">
                                         </div>
                                     </div>
-                                    <div class="choice-tour choice-tour--color--green">Тур по Тайланду</div>
+                                    <div class="choice">
+                                        <div class="choice__tour choice__tour--color--green">Тур по Тайланду</div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="reviews__context">
@@ -127,7 +129,7 @@
                         <li class="reviews__item">
                             <div class="reviews__user">
                                 <div class="reviews__user-avatar">
-                                    <img src="./image/Эллипс%20(1).png" alt="фото" class="reviews__user-pic">
+                                    <img src="./image/Ellips1.png" alt="фото" class="reviews__user-pic">
                                 </div>
                                 <div class="reviews__user-content">
                                     <div class="reviews__user-link">
@@ -136,7 +138,7 @@
                                             <img class="reviews__icon" src="./image/vk-blue%201.png" alt="VK">
                                         </div>
                                     </div>
-                                    <div class="choice-tour choice-tour--color--green">Тур на Остров обезъян</div>
+                                    <div class="choice__tour choice__tour--color--green">Тур на Остров обезъян</div>
                                 </div>
                             </div>
                             <div class="reviews__context">
@@ -155,7 +157,7 @@
                         <li class="reviews__item">
                             <div class="reviews__user">
                                 <div class="reviews__user-avatar">
-                                    <img src="./image/Эллипс%20(3).png" alt="фото" class="reviews__user-pic">
+                                    <img src="./image/Ellips3.png" alt="фото" class="reviews__user-pic">
                                 </div>
                                 <div class="reviews__user-content">
                                     <div class="reviews__user-link">
@@ -164,7 +166,9 @@
                                             <img class="reviews__icon" src="./image/vk-blue%201.png" alt="VK">
                                         </div>
                                     </div>
-                                    <div class="choice-tour choice-tour--color--green">Тур по Индонезии</div>
+                                    <div class="choice">
+                                        <div class="choice__tour choice__tour--color--green">Тур по Индонезии</div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="reviews__context">
@@ -180,11 +184,11 @@
                         </li>
                     </ul>
                     <!-- Пагинация -->
-                    <div class="paginator paginator--mb">
+                    <div class="paginator">
                         <div class="paginator__current-page">Страница 1 из 7</div>
-                        <ul class="paginator__list">
+                        <ul class="paginator__list paginator__inner-page">
                             <li class="paginator__item paginator__item--active">
-                                <a href="#" class="paginator__number">1</a>
+                                <a href="#" class="paginator__number paginator__number--color--red--white">1</a>
                             </li>
                             <li class="paginator__item">
                                 <a href="#" class="paginator__number">2</a>
@@ -227,13 +231,62 @@
                         <div class="survey">
                             <div class="survey__question">Какими услугами компании пользуетесь?</div>
                             <ul class="choice__list">
-                                <li class="choice__item"><div class="choice-tour">Остров обезъян</div></li>
-                                <li class="choice__item"><div class="choice-tour">Тур по Тайланду</div></li>
-                                <li class="choice__item"><div class="choice-tour choice-tour--color--green">Водопад Янг-бей</div></li>
-                                <li class="choice__item"><div class="choice-tour">Тур по Индонезии</div></li>
-                                <li class="choice__item"><div class="choice-tour">Никакими</div></li>
-                                <li class="choice__item"><div class="choice-tour">Тур по Бали</div></li>
-                                <li class="choice__item"><div class="choice-tour">Другое</div></li>
+                                <li class="choice__item">
+                                    <label class="choice__button">
+                                        <input class="choice__input" type="checkbox">
+                                        <span class=" choice__tour">
+                                            Остров обезъян
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="choice__item">
+                                    <label class="choice__button">
+                                        <input class="choice__input" type="checkbox">
+                                        <span class=" choice__tour">
+                                            Тур по Тайланду
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="choice__item">
+                                    <label class="choice__button">
+                                        <input class="choice__input" type="checkbox">
+                                        <span class=" choice__tour">
+                                            Водопад Янг-бей
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="choice__item">
+                                    <label class="choice__button">
+                                        <input class="choice__input" type="checkbox">
+                                        <span class=" choice__tour">
+                                            Тур по Индонезии
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="choice__item">
+                                    <label class="choice__button">
+                                        <input class="choice__input" type="checkbox">
+                                        <span class=" choice__tour">
+                                            Никакими
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="choice__item">
+                                    <label class="choice__button">
+                                        <input class="choice__input" type="checkbox">
+                                        <span class=" choice__tour">
+                                            Тур по Бали
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="choice__item">
+                                    <label class="choice__button">
+                                        <input class="choice__input" type="checkbox">
+                                        <span class=" choice__tour">
+                                            Другое
+                                        </span>
+                                    </label>
+                                </li>
                             </ul>
                         </div>
                         <div class="form__button">
@@ -247,7 +300,7 @@
         <footer class="footer-services">
             <div class="container footer-service__container ">
                 <a href="/" class="footer__logo logo">
-                    <img src="image/лого.png" alt="" class="logo__pic">
+                    <img src="image/logo.png" alt="" class="logo__pic">
                 </a>
                 <nav class="menu">
                     <ul class="menu__list">

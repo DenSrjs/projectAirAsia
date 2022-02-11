@@ -56,7 +56,7 @@ p{
 .main-page-wrapper{
     background: url("../image/1.png") center top no-repeat,
     url("../image/2.png") right bottom 307px no-repeat,
-    url("../image/фон.png");
+    url("../image/fon.png");
 }
 
 .wrapper__content{
@@ -139,16 +139,17 @@ p{
 .breadcrumbs__item{
     color: #9A9A9A;
     text-decoration: underline;
-    margin-right: 2px;
 }
 
-.breadcrumbs__item:nth-child(2){
+.breadcrumbs__item:first-child:after{
+    content: "/";
+    margin-right: 2px;
+    margin-left: 2px;
     text-decoration: none;
 }
 
-.breadcrumbs__item:nth-child(3){
+.breadcrumbs__item:last-child{
     font-weight: bold;
-    margin-right: 0;
 }
 
 .breadcrumbs__list{
@@ -181,6 +182,16 @@ p{
 .paginator__list{
     display: inline-flex;
     vertical-align: middle;
+}
+
+.paginator__inner-page .paginator__item--active .paginator__number--color--red--white{
+    background: #F5170E;
+    color: #fff;
+}
+
+.paginator__inner-page .paginator__number:hover{
+    background: #F5170E;
+    color: #fff;
 }
 
 .main-content{

@@ -21,6 +21,10 @@
     margin-right: 59px;
 }
 
+.partners__item:hover{
+    filter: grayscale(0%);
+}
+
 .partners__item:nth-child(4n + 4){
     margin-right: 0;
 }
@@ -33,4 +37,9 @@
     display: flex;
     align-items: center;
     height: 128px;
+    filter: grayscale(100%);
+}
+
+.partners__link:hover{
+    filter: grayscale(0);
 }

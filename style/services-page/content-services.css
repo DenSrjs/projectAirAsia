@@ -2,6 +2,10 @@
     color: #000;
 }
 
+.tour-services{
+    margin-bottom: 65px;
+}
+
 .tour-service__content{
     display: flex;
     flex-direction: column;
@@ -62,19 +66,7 @@
     background: #F5170E;
 }
 
-.tour-services .paginator{
-    margin-bottom: 65px;
-}
 
-.tour-services .paginator__item--active .paginator__number{
-    background: #F5170E;
-    color: #fff;
-}
-
-.tour-services .paginator__number:hover{
-    background: #F5170E;
-    color: #fff;
-}
 
 
 
