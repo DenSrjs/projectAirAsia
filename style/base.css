@@ -92,6 +92,10 @@ p{
     color: #DA0100;
 }
 
+.menu__link{
+   transition: color .3s;
+}
+
 .menu__link:hover{
     color: #DA0100;
 }
@@ -145,7 +149,6 @@ p{
     content: "/";
     margin-right: 2px;
     margin-left: 2px;
-    text-decoration: none;
 }
 
 .breadcrumbs__item:last-child{
@@ -171,6 +174,7 @@ p{
     font-size: 16px;
     line-height: 32px;
     font-weight: bold;
+    transition: color, background .3s;
 }
 
 .paginator__current-page{
@@ -200,12 +204,29 @@ p{
 
 .social-list{
     display: flex;
+    position: relative;
 }
 
 .main-content—theme-inner{
     margin-bottom: 0;
 }
 
-/*======================================================*/
+/*===================== Кнопка "ПОДРОБНЕЕ" =================================*/
 
+.button__general{
+    display: inline-block;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    transition: background .3s;
+    text-transform: uppercase;
+}
+
+.button__general:hover{
+    background: #DA0100;
+    box-shadow: 0 2px 4px rgba(218, 1, 0, 0.3);
+}
 

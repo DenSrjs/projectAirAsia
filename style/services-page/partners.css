@@ -38,6 +38,7 @@
     align-items: center;
     height: 128px;
     filter: grayscale(100%);
+    transition: filter .3s;
 }
 
 .partners__link:hover{

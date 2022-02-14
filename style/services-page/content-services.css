@@ -49,19 +49,13 @@
     line-height: 1.70;
 }
 
-.tour-service__btn{
-    display: inline-block;
-    font-size: 14px;
+.tour-service__btn--background--white{
     color: #F5170E;
+    background: #fff;
     border: 1px solid #F5170E;
-    box-sizing: border-box;
-    border-radius: 35px;
-    text-transform: uppercase;
-    padding: 18px 40px;
-    font-weight: bold;
 }
 
-.tour-service__btn:hover{
+.tour-service__btn--background--white:hover{
     color: #fff;
     background: #F5170E;
 }

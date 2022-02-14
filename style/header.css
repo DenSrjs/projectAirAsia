@@ -33,6 +33,7 @@
     color: #000;
     opacity: 0;
     transition: opacity .4s;
+    border-radius: 5px;
 }
 .dropdown__menu:before{
     content: "";

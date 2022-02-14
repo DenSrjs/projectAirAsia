@@ -26,3 +26,135 @@
     font-size: 11px;
     font-weight: normal;
 }
+
+/*================================ Спрайты =======================================*/
+
+.social-list__tel:after{
+    position: absolute;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    background: url("../image/css_sprites.png") -234px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.social-list__tel:before{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    background: url("../image/css_sprites.png") -290px -10px;
+    transition: .3s;
+}
+
+.social-list__tel:hover:before{
+    opacity: 0;
+}
+
+.social-list__tel:hover:after{
+    opacity: 1;
+}
+
+
+/*-----------------------------*/
+.social-list__vk:after {
+    position: absolute;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    background: url("../image/css_sprites.png") -346px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+.social-list__vk:before{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    background: url("../image/css_sprites.png") -402px -10px;
+    transition: .3s;
+}
+
+.social-list__vk:hover:before{
+    opacity: 0;
+}
+
+.social-list__vk:hover:after{
+    opacity: 1;
+}
+
+/*-----------------------------*/
+
+.social-list__fc:after{
+    position: absolute;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    background: url("../image/css_sprites.png") -10px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.social-list__fc:before{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    background: url("../image/css_sprites.png") -66px -10px;
+    transition: .3s;
+}
+
+.social-list__fc:hover:before{
+    opacity: 0;
+}
+
+.social-list__fc:hover:after{
+    opacity: 1;
+}
+/*-----------------------------*/
+
+.social-list__ins:after{
+    position: absolute;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    background: url("../image/css_sprites.png") -122px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.social-list__ins:before{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    background: url("../image/css_sprites.png") -178px -10px;
+    transition: .3s;
+}
+
+.social-list__ins:hover:before{
+    opacity: 0;
+}
+
+.social-list__ins:hover:after{
+    opacity: 1;
+}
+
+

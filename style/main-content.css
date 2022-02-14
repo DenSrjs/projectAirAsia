@@ -17,19 +17,7 @@
     margin-bottom: 30px;
 }
 
-.tour-image__btn{
-    display: inline-block;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: bold;
-    background: #F5170E;
-    border-radius: 35px;
-    padding: 18px 40px;
-}
-.tour-image__btn:hover{
-    background: #DA0100;
-    box-shadow: 0 2px 4px rgba(218, 1, 0, 0.3);
-}
+
 /*===================== Горящие туры ============================*/
 
 .hot-tours{
@@ -130,6 +118,7 @@
     width: 135px;
     height: 55px;
     color: #F5170E;
+    transition: color, background .5s;
 }
 
 .btn:hover{
@@ -246,28 +235,4 @@
     color: #000;
     margin-bottom: 43px;
     width: 502px;
-}
-.about-content__more{
-    display: block;
-    width: 168px;
-    background: #F5170E;
-    border-radius: 35px;
-    align-items: center;
-    padding: 20px 40px;
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: bold;
-}
-
-.about-content__more:hover{
-    background: #DA0100;
-    box-shadow: 0 2px 4px rgba(218, 1, 0, 0.3);
-}
-
-.hor-line{
-    display: block;
-    background: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.1;
-    margin-bottom: 45px;
 }
